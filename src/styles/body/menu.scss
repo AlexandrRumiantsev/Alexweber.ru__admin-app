@@ -1,0 +1,98 @@
+#index{
+            height:100%;
+            display:flex;
+            nav{
+             a{
+              color:black;
+             }
+            }
+            .item__close{
+            z-index: 99;
+                display: flex;
+                width: 30px;
+                height: 30px;
+                background: black;
+                border-radius: 30px;
+                position: fixed;
+                top: 0;
+                right: 0;
+                border: 1px solid;
+                color: white;
+                align-items: center;
+                justify-content: center;
+                border: 3px solid white;
+            }
+            .menu{
+                border: 3px solid;
+                position: fixed;
+                background: black;
+                padding: 10px;
+                color: gold;
+                bottom: 0;
+                left: 0;
+                z-index: 9;
+                .menu__login{
+                    display: flex;
+                    align-items: center;
+                    &:before{
+                      margin: 5px;
+                      content: '\f21b';
+                      font-family: "FontAwesome";
+                      font-style: normal;
+                      font-size: 30px;
+                    }
+                }
+            }
+            .index-container{
+            padding: 15px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+               display: flex;
+                height: 25%;
+                width: 35%;
+                margin: 10px;
+                align-items: center;
+                justify-content: center;
+              .index-container__item{
+                text-align: center;
+                font-size: 20px;
+              }
+            }
+            .page_popupp{
+                
+                background: white;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                display: flex;
+                justify-content: center;
+            }
+          }
+
+.container-main{
+height: 100%;
+display:flex;
+    #main-container{
+    width:fit-content;
+}
+#RightMenu{
+    width:fit-content;
+
+    .MuiDrawer-docked{
+        height: 100%;
+        a{
+             span{
+               color:black;
+             }
+        }
+    }
+    
+}
+.page_popupp{
+        width: 100%;
+        margin-top: calc(65px);
+        height: calc(100vh - 65px);
+        overflow: scroll;
+    }
+}

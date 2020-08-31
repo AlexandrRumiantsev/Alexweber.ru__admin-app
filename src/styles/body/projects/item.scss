@@ -1,0 +1,54 @@
+.item{
+    border:1px solid;
+    display: flex;
+    position: relative;
+    margin: auto;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 3px 3px 5px black, 0 0 1em black;
+    background-color: rgba(0, 0, 0, 0.8);
+    i:before{
+        font-family: "FontAwesome";
+    }
+    .fa-trash-alt:before {
+        content: "\f171";
+    }
+    
+}
+.item__title{
+    .title__content{
+        max-width:400px;
+        white-space: nowrap;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+        font-size:16px;
+    }
+ }  
+.container-btn{
+	font-size: 18px;
+	padding: 5px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    span{
+       margin:5px;
+    }
+}
+
+.sbm-span:before{
+    position: absolute;
+    font-family: "FontAwesome";
+    content: '\f0c7';
+    font-style: normal;
+    font-size: 50px;
+    left: 0;
+    bottom: 0;
+    cursor:pointer;
+}
+.discription-project__item , .name-project__item , .url-project__item , .image-project__item , .image-project-full__item{
+    font-size:20px;
+        padding: 5px;
+}

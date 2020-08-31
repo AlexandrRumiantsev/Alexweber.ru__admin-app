@@ -1,0 +1,107 @@
+.list-projects{
+	width: 100%;
+    height: 100vh;
+	.edit-container{
+	 	display:none;
+	    position: fixed;
+	    height: 100%;
+	    width: 100%;
+	    top: 0;
+	   	background-color: rgba(0, 0, 0, 0.9);
+	    z-index: 999;
+	    input:not([type="submit"]){
+	    	margin:3px;
+	    	padding: 10px;
+		    border: none;
+		    height: 20px;
+		    width: 250px;
+		    margin: 5px;
+		    outline: none;
+		    border-radius:3px;
+	    }
+	    input[type="submit"]{
+	    	position:absolute;
+	    	left:10px;
+	    	bottom:10px;
+	    }
+	    textarea{
+	    border-radius:3px;
+	    margin:3px;
+	    	border:none;
+	    	outline: none;
+	    }
+	    .close-project{
+	    	
+	    	float: right;
+	    	&.before{
+	    		content: "\f057";
+	    	}
+	    }
+	    &.active{
+	    	display:block;
+	    }
+	    .image-project-full{
+            img{
+              border:1px solid white;
+              max-width: 200px;
+            }
+        }
+        .image-project{
+            img{
+            	border:1px solid white;
+              max-width: 500px;
+            }
+        }
+        .edit-project{
+            color: white;
+        	display:flex;
+        	textarea{
+	        	padding: 10px;
+			    width: 250px;
+			    height: 400px;
+        	}
+        	.image-project{
+        		padding:35px;
+        	}
+        	.image-project-full{
+				padding:35px;
+        	}
+        	.text-container{
+        		padding: 35px 5%;
+        		padding-right: 0;
+        	}
+        	.close-project-container{
+        		right: 0;
+			    position: absolute;
+			    padding: 15px;
+
+				.close-project{
+					z-index: 99;
+				    display: flex;
+				    width: 30px;
+				    height: 30px;
+				    background: black;
+				    border-radius: 30px;
+				    position: fixed;
+				    top: 0;
+				    right: 0;
+				    border: 1px solid;
+				    color: white;
+				    align-items: center;
+				    justify-content: center;
+				    border: 3px solid white;
+				}
+     
+
+        	}
+        }
+	}
+	.projects__item{
+	      	height: 350px;
+		    display: inline-block;
+		    margin: 0;
+		    width: 50%;
+		    margin-bottom: 0;
+		
+	}
+}

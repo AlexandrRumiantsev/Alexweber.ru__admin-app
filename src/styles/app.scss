@@ -1,0 +1,46 @@
+html{
+  height:100%;
+  body{
+    height:100%;
+    #app{
+        background: white;
+        height:100vh;
+        .app{
+          height:100%;
+            .far-projects:before{
+                font-family: "FontAwesome";
+                content: '\f108';
+                font-style: normal;
+                font-size: 90px;
+            }
+            .far-papers:before{
+              font-family: "FontAwesome";
+                content: '\f121';
+                font-style: normal;
+                font-size: 90px;
+            }
+            .far-comments:before{
+              font-family: "FontAwesome";
+                content: '\f127';
+                font-style: normal;
+                font-size: 90px;
+            }
+        } 
+    }
+  }
+  
+}
+
+
+a{
+  border:none;
+  color:#fff;
+  outline:none;
+  border-radius:5px;
+  text-decoration:none;
+}
+
+.container-loader{
+  display: flex;
+  align-items: center;
+}

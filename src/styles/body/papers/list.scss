@@ -1,0 +1,77 @@
+.container-paper{
+	    width: 100%;
+    display: flex;
+    .fa-plus-circle{
+      position:fixed;
+      bottom:0;
+      right:0;
+      font-size:35px;
+      z-index:99;
+    }
+    .section{
+    	width:50%;
+    	.MuiFormControl-root{
+    		width:100%;
+    	}
+    }
+}
+.MuiTypography-body2{
+	overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.add_paper_form{
+    z-index: 99;
+  .add_paper_form__close{
+    z-index: 100;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 30px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 1px solid;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+  }
+  display: flex;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+
+  form{
+    height: 75%;
+    overflow: scroll;
+    background: white;
+    padding: 20px;
+    width: 550px;
+    div{
+        margin-bottom: 10px;
+        width: 100%;
+      input{
+        width: 100%;
+      }
+      .MuiIconButton-label{
+         div{
+          margin-bottom: 0px;
+         }
+      }
+    }
+  }
+}
+
+
+.hidden{
+ display:none; 
+}

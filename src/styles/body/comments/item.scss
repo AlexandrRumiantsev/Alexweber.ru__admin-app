@@ -1,0 +1,20 @@
+.page-comment{
+	width: 100%;
+    display: flex;
+	.comment-list-item{
+		padding: 15px;
+		.item-comment{
+		   padding: 20px;
+		   background:#f2f2f2;
+		   span{
+		   	position: relative;
+    		float: right;
+    		i{
+		    	position: absolute;
+				top: -15px;
+				right: -15px;
+    		}
+		   }
+		}
+	}
+}

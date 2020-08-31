@@ -1,0 +1,11 @@
+.edit-item{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    input , textarea{
+      width:100%;
+      border: navajowhite;
+    }
+    .edit-item-input{
+    	width:100%;
+    }
+}
