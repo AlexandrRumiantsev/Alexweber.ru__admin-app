@@ -15,17 +15,11 @@
 
 
 # Макеты экранов приложения.
-
-<h2>Главный экран</h2>
-<img src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/1.png" data-canonical-src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/1.png"  height="400" /> 
+<h2>Авторизация</h2>
+<img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/aut.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/aut.png"  height="400" /> 
 <h2>Проекты</h2>
-<img src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/2.png" data-canonical-src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/2.png"  height="400" />  
-<h2>Редактирование проекта</h2>
-<img src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/3.png" data-canonical-src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/3.png"  height="400" /> 
-<h2>Страница стататей</h2>
-<img src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/4.png" data-canonical-src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/4.png"  height="400" />
-<h2>Добавление стататей</h2>
-<img src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/6.png" data-canonical-src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/4.png"  height="400" />  
-<h2>Страница комментариев</h2>
-<img src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/5.png" data-canonical-src="https://github.com/AlexandrRumiantsev/NewAlexWeber.ru/blob/master/frontendAdminDEV/docs/5.png"  height="400" /> 
-# Alexweber.ru__admin-app
+<img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/projecs.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/projecs.png"  height="400" />  
+<h2>Статьи</h2>
+<img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/papers.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/papers.png"  height="400" /> 
+<h2>Страница всех комментариев к статьям</h2>
+<img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/comments.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/documents_project/comments.png"  height="400" />
