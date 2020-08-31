@@ -18,7 +18,7 @@
 <h2>Авторизация</h2>
 <img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/aut.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/aut.png"  height="400" /> 
 <h2>Проекты</h2>
-<img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/projecs.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/projecs.png"  height="400" />  
+<img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/projects.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/projects.png"  height="400" />  
 <h2>Статьи</h2>
 <img src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/papers.png" data-canonical-src="https://github.com/AlexandrRumiantsev/Alexweber.ru__admin-app/blob/master/documents_project/papers.png"  height="400" /> 
 <h2>Страница всех комментариев к статьям</h2>
